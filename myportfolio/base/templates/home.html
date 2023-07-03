@@ -1,0 +1,84 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hamda Ahmad</title>
+    <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container mt-4">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card card-body border-info h-100" id="profile-wrap">
+                <img src="{% static 'images/profile.jpeg' %}" id="profile" alt="Profile picture">
+                <br>
+                <h3>Hi, I'm Hamda!</h3>
+                <p>Welcome to my portfolio! I'm a vibrant and multi-talented 21-year-old girl with an insatiable passion for artistic expression, delectable baking creations, and the exciting world of website development. Allow me to take you on a journey through the various realms where my creativity flourishes.</p>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="card card-body border-info h-100">
+                <h3>More about me!</h3>
+                <br>
+                <p>When I pick up a paintbrush, a magical world unfolds on the canvas before me. Painting has always been my sanctuary, a place where I can translate my thoughts, emotions, and dreams into vivid strokes of color. Whether it's capturing the ethereal beauty of nature or exploring the depths of abstract expression, every brushstroke represents a piece of my soul. The vibrant hues and captivating imagery in my artwork serve as a window into my imagination, inviting you to share in the joy and inspiration I find in every stroke.</p>
+
+                    <p>Beyond the realms of art, I am a master of flavors and an avid baker. In the realm of baking, my kitchen transforms into a laboratory of taste and texture. With my apron on and mixing bowls at the ready, I create edible masterpieces that not only tantalize the taste buds but also delight the eyes. From exquisite cakes adorned with intricate designs to mouthwatering cookies and pastries bursting with flavor, my culinary creations are a testament to my dedication and love for the art of baking.</p>
+                    
+                   <p>Join me as we explore the colorful tapestry of my creative pursuits. From breathtaking paintings to delectable culinary delights and captivating web designs, my portfolio showcases the diverse facets of my artistic journey. Together, let's embark on a visual feast that celebrates the beauty of art, the joy of baking, and the endless possibilities of the digital realm.</p>
+                    
+                    <p>Welcome to my world of imagination, flavors, and pixels. I hope you find inspiration and delight in every corner.</p>
+                    <ul class="social-links">
+                        <a href="https://www.linkedin.com/in/hamda-ahmad-23783a223?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bk1usA6QvTu2AlfKp9xbASw%3D%3D" target="_blank" title="View LinkedIn profile"><li><img class="social" src="{% static 'images/linkedin.png' %}"></li></a>
+                        <a href="https://github.com/hamda288" target="_blank" title="View Github profile"><li><img class="social" src="{% static 'images/github.png' %}"></li></a>
+                        <a href="mailto:ahmadhamda2828@gmail.com" target="_blank" title="Send an email"><li><img class="social" src="{% static 'images/email.png' %}"></li></a>
+                        <li><img class="social" src="{% static 'images/instagram.png' %}"></li>
+                    </ul>
+            </div>
+                
+          </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+              <div class="card card-body h-100">
+                <h3>What I know</h3>
+                <p>My journey into the vast realm of programming began with the foundational trio of HTML, CSS, and JavaScript. Armed with these languages, I discovered the power of web development and the ability to bring ideas to life on the digital canvas. Crafting beautiful and intuitive user interfaces became my playground, as I dived into the intricacies of front-end development, creating visually engaging websites that blend form and function seamlessly.</p>
+
+                    <p>But I didn't stop there. Eager to expand my coding horizons, I delved into the realms of Python, Django, and beyond. Python, with its elegance and versatility, quickly won my heart. From automating tasks to building complex web applications, Python became my go-to tool for tackling challenges with efficiency and elegance. Along the way, I discovered the power of frameworks like Django, empowering me to develop robust and scalable web applications that meet the unique needs of businesses and users alike.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card card-body h-100">
+                <h3>How I learn development</h3>
+                <p>I am a self-taught developer who embraces the power of online resources and hands-on experience. My journey into the world of development began with a simple curiosity and an unwavering determination to learn. Armed with an internet connection and an insatiable thirst for knowledge, I turned to YouTube videos as my virtual mentors. Through countless hours of watching tutorials, coding walkthroughs, and insightful discussions, I absorbed the fundamentals and intricacies of programming languages and frameworks. </p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card card-body h-100 ">
+                <h3>My short term goals</h3>
+                <p>I am currently immersed in learning the MERN stack with a steadfast goal of becoming a full stack developer. The MERN stack, which comprises MongoDB, Express.js, React, and Node.js, offers a comprehensive and powerful toolkit for building dynamic web applications from end to end. With a focus on both front-end and back-end technologies, I am diving into the intricacies of each component, understanding how they seamlessly integrate to create robust and scalable applications</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card card-body h-100">
+                <h3>My Other Interests</h3>
+                <p>In addition to my passion for painting, baking, and tech skills, I have also honed my abilities in event management. With a natural knack for organization, attention to detail, and a flair for creativity, I excel in creating memorable and seamless experiences for various occasions. From coordinating logistics and timelines to curating themes and designing captivating decor, I thrive in the fast-paced environment of event planning. My ability to anticipate needs, communicate effectively, and collaborate with a diverse range of individuals ensures that every event I manage is executed with precision and professionalism.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<!-- <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css">
+<img src="{% static 'images/profile.jpeg' %}" id="profile" alt="Profile picture"> -->
