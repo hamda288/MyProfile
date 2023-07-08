@@ -83,8 +83,5 @@ Contributions to this project are welcome. Here are the suggested steps:
 
 ## Contact
 
-If you have any questions or suggestions, feel free to reach out to me at your-email@example.com.
+If you have any questions or suggestions, feel free to reach out to me at ahmadhamda2828@gmail.com 
 
----
-
-Feel free to modify and customize this README file to fit your project's specific requirements.
