@@ -75,10 +75,6 @@ Contributions to this project are welcome. Here are the suggested steps:
 4. Push your changes to your forked repository.
 5. Submit a pull request with a description of your changes.
 
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
 ## Acknowledgements
 
 - The Django project: https://www.djangoproject.com/
